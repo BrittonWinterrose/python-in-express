@@ -3,9 +3,9 @@ const app = express();
 const port = process.env.PORT || 3000;
 let { PythonShell } = require("python-shell");
 
-app.get("/hello", callD_alembert);
+app.get("/hello", callHello);
 
-function callD_alembert(req, res) {
+function callHello(req, res) {
   const options = {
     args: []
   };
