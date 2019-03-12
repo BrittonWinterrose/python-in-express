@@ -1,0 +1,24 @@
+{
+  "name": "python-in-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinBrack/python-in-express.git"
+  },
+  "author": "Kevin Brack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KevinBrack/python-in-express/issues"
+  },
+  "homepage": "https://github.com/KevinBrack/python-in-express#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "python-shell": "^1.0.7"
+  }
+}
